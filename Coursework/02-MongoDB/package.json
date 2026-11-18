@@ -1,0 +1,16 @@
+{
+  "name": "02-mongodb",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "crudDemo.js",
+  "scripts": {
+    "start": "node --env-file=.env crudDemo.js"
+  },
+  "keywords": [],
+  "author": "Serge Ngang",
+  "license": "ISC",
+  "description": "MongoDB Atlas and Node.js CRUD coursework",
+  "dependencies": {
+    "mongodb": "^7.9.0"
+  }
+}
