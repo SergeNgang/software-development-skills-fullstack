@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Coursework Tracker</title>
+    <style>
+      body { font-family: 'Times New Roman', Times, serif, sans-serif; max-width: 600px; margin: 2rem auto; padding: 0 1rem; }
+      form { display: flex; gap: 0.8rem; margin-bottom: 1rem; }
+      input { flex: 1; padding: 0.8rem; }
+      button { padding: 0.5rem 1rem; cursor: pointer; }
+      .task { padding: 0.6rem; border: 1px solid #ddd; border-radius: 4px; margin-bottom: 0.5rem; }
+    </style>
+  </head>
+  <body>
+    <h1>ExpressJS Tasks</h1>
+    <form id="add-task-form">
+      <input type="text" id="title" name="title" placeholder="Enter task title..." required />
+      <button type="submit">Add Coursework</button>
+    </form>
+    <button id="get-tasks-btn">Refresh Courses</button>
+    <div id="output" style="margin-top: 2rem;"></div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
